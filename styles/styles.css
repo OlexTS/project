@@ -188,9 +188,11 @@ ul {
 }
 
 .project-list {
+  padding: 0;
   display: flex;
-  flex-wrap: wrap;
   gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .project-item {
@@ -209,7 +211,9 @@ ul {
 }
 
 .work-btn {
+  display: block;
   padding: 15px 50px;
+  margin: 0 auto;
   line-height: 2;
   background: #0a8bfe;
   border-radius: 4px;
